@@ -127,6 +127,11 @@
     transition: all 0.3s ease;
 }
 }
+@media (max-width: 495px){
+    .container{
+        font-size: 10px;
+    }
+}
 @media (max-width: 429px){
     .logo-mobile img{
         align-items: center;
