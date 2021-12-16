@@ -27,10 +27,13 @@
             <a class="nav-link active" aria-current="page" href="#">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reservar</a>
+            <a class="nav-link" href="#row">Reservar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="#serviços">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -49,6 +52,7 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -63,6 +67,13 @@
         <div class="carousel-caption d-none d-md-block">
           <h5>Standard</h5>
           <p>Quarto simples.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagens/quarto-superior-solteiro-hotel-cullinan-hplus-em-brasilia-5.jpg" class="d-block w-100" width="100%" height="100%" alt="Standard">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Standard duplo</h5>
+          <p>Quarto de solteiro</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -93,42 +104,49 @@
 
   <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
+    <!-- Reserva de quarto -->
+    <div class="row" id="row">
       <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" src="Imagens/pexels-vecislavas-popa-17432291.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
         
         <h2>Standard</h2>
-        <p>Quarto standard possui banheiro, TV, ar condicionado e muito mais, ideal para viajantes que queira passar uma noite.  </p>
+        <p>Quarto standard possui uma cama de casal, banheiro, TV, ar condicionado e muito mais, ideal para viajantes que queira passar uma noite.  </p>
         <p><a class="btn btn-secondary" href="#">Reservar &raquo;</a></p>
       </div>
-      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="Imagens/quarto-superior-solteiro-hotel-cullinan-hplus-em-brasilia-5.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+        
+        <h2>Standard Duplo</h2>
+        <p>Quarto standard duplo possui duas camas de solteriro, banheiro, TV, ar condicionado e muito mais.  </p>
+        <p><a class="btn btn-secondary" href="#">Reservar &raquo;</a></p>
+      </div>
       <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" src="Imagens/pexels-max-vakhtbovych-6958136.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
         <h2>Suíte Master</h2>
-        <p>Suíte master possui banheira com hidro, TV, ar condicionado, varanda com vista panorâmica e muito mais, ideal para passar mais de um dia no hotel.</p>
+        <p>Suíte master possui uma cama de casal king, banheira com hidro, TV, ar condicionado, varanda com vista panorâmica e muito mais, ideal para passar mais de uma noite no hotel.</p>
         <p><a class="btn btn-secondary" href="#">Reservar &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" src="Imagens/pexels-quark-studio-25069901.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
         <h2>Suíte Master Superior</h2>
-        <p>Suíte master superior possui closet, banheira com hidro, piscina, TV, ar condicionado, sofá, varanda com vista panorâmica e muito mais, ideal para você curte o que a de melhor no hotel.</p>
+        <p>Suíte master superior possui uma cama de casal king, closet, banheira com hidro, piscina, TV, ar condicionado, sofá, varanda com vista panorâmica e muito mais, ideal para você curte o que a de melhor no hotel.</p>
         <p><a class="btn btn-secondary" href="#">Reservar &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+      </div>
+    </div>
 
-    <hr class="featurette-divider">
+    <!--Sobre nós -->
+    <hr class="featurette-divider" id="serviços">
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <h2 class="featurette-heading">Hotel <span class="text-muted"> 5 Estrelas</span></h2>
+        <p class="lead"> Oferecemos um atendimento de qualidade com agilidade e transparência, sempre assumindo compromissos de ética e parceria com nossos Hóspedes, colocando a disposição 240 apartamentos e profissionais qualificados que buscam o aprimoramento contínuo contribuindo sempre com um bom atendimento e uma prestação de serviços qualificada. Oferecemos como cortesia café-da-manhã diário, Wi-Fi gratuito e estacionamento. Todas as suítes são bem equipadas, dispõem de TV de LED, Rádio, interfone, Ar Condicionado, Mesa, Secador de cabelo, chinelo, banheiro privativo com uma fantástica ducha de aquecimento central (caldeira).</p>
       </div>
       
       <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="Imagens/pexels-quang-nguyen-vinh-2133508.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="Imagens/Hotel-5-estrela.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 
       </div>
     </div>
@@ -137,9 +155,9 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.
+        <h2 class="featurette-heading">Aqui você é <span class="text-muted"> muuuuito FELIZ!
         </span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <p class="lead">Você em havaí! Oferecemos também piscina com estilo havaiano com todo conforto que você merecee.</p>
       </div>
       <div class="col-md-5 order-md-1">
         <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="Imagens/pexels-thorsten-technoman-338504.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
@@ -151,31 +169,80 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading">Oferecemos aos nossos Hóspedes um serviço de qualidade e um excelente  <span class="text-muted"><span class="text-muted"><br>café-da-manhã... </span></h2>
+        <p class="lead">Oferecemos um excelente serviço de restaurante que funciona 24 horas e a recepção também funciona 24 horas. Obs.: todas nossas acomodações possuem Ar Condicionado e algumas dispões também de frigobar.</p>
       </div>
       <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="Imagens/pexels-andrew-taylor-4058916.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="Imagens/café-da-manha.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Estacionamento<span class="text-muted"> Subterrâneo.</span></h2>
+        <p class="lead">Temos estacionamento subterrâneo, um estacionamento amplo com muitas vagas, você não precisa deixar a chave do seu veículo, aqui vocês estaciona seu veiculo e pode levar a chave e o melhor, o estacionamento é gratuito para os hospedes.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="Imagens/estacionamento-subterraneo.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 
-  </div><!-- /.container -->
+      </div>
+    </div>
 
+      <hr class="featurette-divider">
+
+
+    <!---sessão contato-->
+    <section class="contact" id="contact">
+      <div class="max-width">
+          <h2 class="title">Contato</h2>
+          <div class="contact-content">
+              <div class="column left">
+                 <div class="text">Fale Conosco</div>
+                 <p>Para mais Informações entre em contato.</p>
+
+              <div class="column rigth">
+                  <div class="text">Mensagem</div>
+                  <form action="#">
+                      <div class="fields">
+                          <div class="field name">
+                              <input type="text" placeholder="Nome" required>
+                          </div>
+                          <div class="field email">
+                              <input type="email" placeholder="Email" required>
+                          </div>
+                          
+                      </div>
+                      <div class="field">
+                          <div class="fields assunto">
+                              <input type="text" placeholder="Assunto" required>
+                          </div>
+                          <div class="field textarea">
+                              <textarea cols="30" rows="10" placeholder="Escrever..." required></textarea>
+                          </div>
+                          
+                          <div class="button">
+                              <button type="submit">Enviar</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <hr class="featurette-divider">
 
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2021–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2021–2022 Criado por <span>Valter Francisco</span>&middot; <a href="#">Privacy</a> &middot;</p>
   </footer>
 </main>
+  </div><!-- /.container -->
 
-    
-    
 
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   
