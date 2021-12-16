@@ -116,6 +116,9 @@
     .row .col-lg-4{
         margin: 10px auto;
     }
+    .carousel-inner .carousel-item{
+        height: 70vh;
+    }
 }
 @media (max-width: 767px){
 .logo-mobile img{
@@ -131,6 +134,10 @@
     .container{
         font-size: 10px;
     }
+    .carousel-inner .carousel-item{
+        height: 50vh;
+    }
+}
 }
 @media (max-width: 429px){
     .logo-mobile img{
